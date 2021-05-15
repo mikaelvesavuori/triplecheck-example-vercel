@@ -1,0 +1,35 @@
+{
+  "name": "triplecheck-example-vercel",
+  "version": "1.0.0",
+  "description": "TripleCheck broker running on Vercel and FaunaDB",
+  "main": "api/index.ts",
+  "author": "Mikael Vesavuori",
+  "license": "MIT",
+  "keywords": [
+    "triplecheck",
+    "contract-testing",
+    "consumer-driven-contracts",
+    "consumer-contracts",
+    "pacts"
+  ],
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel",
+    "remove": "vercel remove YOUR_PROJECT_NAME"
+  },
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "triplecheck-broker": "^0.0.7",
+    "triplecheck-repository-fauna": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "@vercel/node": "^1.10.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  }
+}
