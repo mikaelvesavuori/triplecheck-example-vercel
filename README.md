@@ -2,7 +2,7 @@
 
 ![TripleCheck example implementation](readme/triplecheck-example.png)
 
-## TripleCheck broker running on Vercel Functions
+## TripleCheck broker running on Vercel
 
 This repo demonstrates a working, basic implementation of a [TripleCheck broker](https://github.com/mikaelvesavuori/triplecheck-broker) running on Vercel with the database in FaunaDB.
 

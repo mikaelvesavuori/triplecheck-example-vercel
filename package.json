@@ -7,6 +7,8 @@
   "license": "MIT",
   "keywords": [
     "triplecheck",
+    "triplecheck-example",
+    "vercel",
     "contract-testing",
     "consumer-driven-contracts",
     "consumer-contracts",
@@ -18,9 +20,9 @@
     "remove": "vercel remove YOUR_PROJECT_NAME"
   },
   "dependencies": {
-    "dotenv": "^8.6.0",
-    "triplecheck-broker": "^0.0.7",
-    "triplecheck-repository-fauna": "^0.0.2"
+    "dotenv": "^9.0.2",
+    "triplecheck-broker": "latest",
+    "triplecheck-repository-fauna": "latest"
   },
   "devDependencies": {
     "@types/node": "^15.3.0",
